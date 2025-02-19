@@ -19,4 +19,4 @@ while True:
     # サンプルを受信する
     sample, timestamp = inlet.pull_sample()
     print(f"Timestamp: {timestamp}, Sample: {sample}")
-    time.sleep(0.1)  # 短い遅延を入れてCPU使用率を抑える
+    time.sleep(0.2)  # 短い遅延を入れてCPU使用率を抑える
